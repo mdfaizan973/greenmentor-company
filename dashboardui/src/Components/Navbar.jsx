@@ -36,7 +36,7 @@ const Navbar = () => {
         <select
           id="exampleSelect"
           name="exampleSelect"
-          className="mt-2 mr-12 p-2 text-[10px] block w-[13%] border border-green-300 rounded-md focus:outline-none focus:border-green-500 focus:ring focus:ring-green-200"
+          className="mt-2 mr-12 p-2 text-[10px] block w-[50%] lg:w-[13%] border border-green-300 rounded-md focus:outline-none focus:border-green-500 focus:ring focus:ring-green-200"
         >
           <option className="text-[10px]">Show Time Mar 23 - Apr 23</option>
           <option className="text-[10px]">Show Time Aug 15 - Sep 15</option>
