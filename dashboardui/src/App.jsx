@@ -19,8 +19,9 @@ export default function App() {
         {/* table will be here */}
 
         <div className="main-hart-table">
-          <div className="chart-data">{/* <Table /> */}</div>
+          <div className="chart-data">1</div>
           <div className="table-content">
+            {" "}
             <Table />
           </div>
         </div>
@@ -28,3 +29,5 @@ export default function App() {
     </div>
   );
 }
+// {/* <Table /> */}
+// {/* <Table /> */}
