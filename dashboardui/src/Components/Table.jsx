@@ -1,7 +1,50 @@
 // import React from 'react'
 
 export default function Table() {
-  const data = [1, 2, 3, 4, 5, 6, 7];
+  const data = [
+    {
+      supplier: "Adani",
+      year: "2023",
+      emmision: "24",
+      mom: "25%",
+    },
+    {
+      supplier: "Ambani",
+      year: "2023",
+      emmision: "25",
+      mom: "27%",
+    },
+    {
+      supplier: "PwC",
+      year: "2023",
+      emmision: "32",
+      mom: "24%",
+    },
+    {
+      supplier: "Vijaya steels",
+      year: "2023",
+      emmision: "38",
+      mom: "28%",
+    },
+    {
+      supplier: "Tata",
+      year: "2023",
+      emmision: "37",
+      mom: "34%",
+    },
+    {
+      supplier: "Visaka Steel",
+      year: "2023",
+      emmision: "45",
+      mom: "67%",
+    },
+    {
+      supplier: "Alibaba",
+      year: "2023",
+      emmision: "58",
+      mom: "54%",
+    },
+  ];
   return (
     <div>
       <div className="flex p-3 justify-between items-center">
@@ -15,26 +58,26 @@ export default function Table() {
         <thead>
           <tr>
             <th className="border text-[12px] text-gray-400 bg-gray-200 p-2">
-              Column 1
+              SUPPLIER
             </th>
             <th className="border text-[12px] text-gray-400 bg-gray-200 p-2">
-              Column 2
+              YEAR
             </th>
             <th className="border text-[12px] text-gray-400 bg-gray-200 p-2">
-              Column 3
+              EMISSION/REVENUE RATIO
             </th>
             <th className="border text-[12px] text-gray-400 bg-gray-200 p-2">
-              Column 4
+              MOM
             </th>
           </tr>
         </thead>
         <tbody>
           {data.map((ele, i) => (
             <tr key={i} className="bg-white text-center">
-              <td className="border p-4">{ele} 1</td>
-              <td className="border p-4">{ele} 2</td>
-              <td className="border p-4">{ele} 3</td>
-              <td className="border p-4">{ele} 4</td>
+              <td className="border p-4">{ele.supplier} </td>
+              <td className="border p-4">{ele.year} </td>
+              <td className="border p-4">{ele.emmision} </td>
+              <td className="border p-4">{ele.mom} </td>
             </tr>
           ))}
         </tbody>
