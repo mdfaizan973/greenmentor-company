@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import SmallCard from "./Components/SmallCard";
 import Charts from "./Components/Charts";
+import Table from "./Components/Table";
 export default function App() {
   return (
     <div className="main_container">
@@ -14,6 +15,14 @@ export default function App() {
         <div className="card_cart">
           <SmallCard />
           <Charts />
+        </div>
+        {/* table will be here */}
+
+        <div className="main-hart-table">
+          <div className="chart-data">{/* <Table /> */}</div>
+          <div className="table-content">
+            <Table />
+          </div>
         </div>
       </div>
     </div>

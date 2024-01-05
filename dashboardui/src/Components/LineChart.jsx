@@ -144,7 +144,10 @@ const LineChart = () => {
   }, [chartData]);
 
   return (
-    <div id="chart">
+    <div
+      id="chart"
+      className="p-2 shadow-lg border border-gray-200 rounded-md ml-4"
+    >
       <ReactApexChart
         options={chartOptions}
         series={chartSeries}
