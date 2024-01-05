@@ -25,9 +25,9 @@
   border-radius: 10px;
   overflow: hidden;
 }
-.chart-data {
+/* .chart-data {
   border: 2px solid green;
-}
+} */
 .chart-data,
 .table-content {
   width: 48%;
